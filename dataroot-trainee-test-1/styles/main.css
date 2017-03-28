@@ -116,7 +116,7 @@ h1 {
 
 }
 .print {
-      margin: 7.5px auto 25px 135px;
+      margin: 7px auto 25px 135px;
       letter-spacing: 2.4px;
       font-family: GothamRoundedMedium;
 }
@@ -143,15 +143,24 @@ h1 {
 }
 .logos {
   width: auto;
-  margin: 221px auto auto 590px;
+  margin: 220px auto auto 590px;
 }
 .logos img {
-  margin-right: 12px;
+  margin-right: 11px;
 }
 .logos img:last-child {
-  margin-right: 0px;
+  padding-top: 1px;
+  margin-top: 1px;
+}
+.logo_header1 {
+  margin: 0px 0px 1px 1px;
 }
 
+.logo_header2 {
+  margin: 0px 0px 1px 0px;
+
+
+}
 /*content*/
 .content {
   background-color: rgb(205, 183, 210);
@@ -168,13 +177,13 @@ h1 {
 .p_content {
   color: #373737;
   font-family: GothamRoundedBook;
-  margin: 37px auto;
+    margin: 39px -1px 0px -1px;
   line-height: 24px;
 }
 .button1 {
   width: 192px;
   height: 51px;
-  margin: 5px 1px;
+  margin: 41px 1px;
 }
 .button_text1 {
   margin-top: 16px;
@@ -196,13 +205,13 @@ h1 {
 }
 .div_content2>p{
   line-height: 22px;
-  margin: 34px 2.5px;
+  margin: 35px 2.5px;
 
 }
 .button2 {
   width: 192px;
-  height: 52px;
-  margin: 3px 1px 1px 1px;
+  height: 51px;
+  margin: 2px 1px 1px 1px;
   border-radius: 0px;
 }
 .button_text2 {
@@ -211,14 +220,14 @@ h1 {
 }
 .dark {
   color: #373737;;
-  margin: 38px 0px 0px 1px !important;
+  margin: 39.4px 0px 0px 01px !important;
 }
 .angles {
- margin: 2px 0px 0px 0px;
+ margin: 2px 0px 0px 1px;
 }
 .angles>.angle-left {
   display: inline-block;
-  margin-right: 18px;
+  margin-right: 16px;
 }
 .angles>.angle-right {
   display: inline-block;
@@ -249,29 +258,29 @@ h1 {
   text-align: center;
   letter-spacing: 1.5px;
   font-family: GothamRoundedMedium;
-  padding-left: 17px;
+  padding-left: 18px;
 }
 .px10>span {
   padding-right: 4px;
 }
 .logo-green {
-  margin-left: 57px;
+  margin-left: 58px;
   position: relative;
-  top: -14px;
+  top: -15px;
 }
 .our_community {
   display: block;
   color: #373737;
-  margin: 9px 0px 9px -1px;
+  margin: 9px 0px 10px -1px;
   letter-spacing: 2.4px;
 }
 .bus {
   display: inline-block;
-  margin: -212px 0px 0px 256px;
+  margin: -212px 0px 0px 257px;
 }
 .tree {
   display: block;
-  margin: -248px 0px 0px 650px;
+  margin: -248px 0px 0px 651px;
 }
 .content4 {
   height: 789px;
@@ -292,13 +301,13 @@ h1 {
   height: 60px;
   background-color: #FFFFFF;
   border-radius: 3px 0px 0px 3px;
-  margin: 0px 0px 0px 62px;
+  margin: 0px 0px 0px 63px;
   padding: 0px 0px 0px 22px;
   border: none;
   color: #373737;
   text-decoration: none;
   font-size: 16px;
-  letter-spacing: 2.4px;
+  letter-spacing: 2.3px;
   font-family: GothamRoundedMedium;
   float: left;
 
@@ -314,7 +323,7 @@ padding: 0px;
 float: left;
 }
 .image_check {
-  padding: 8px 20px 0px 23px;
+  padding: 7px 20px 0px 23px;
 }
 
 .content5 {
@@ -330,18 +339,18 @@ float: left;
   padding-top: 87px;
   padding-bottom: 7px;
   letter-spacing: 3px;
-  margin: 0px 0px 0px -1px;
+  margin: 0px 0px 0px 1px;
 }
 .content5_p {
   font-family: GothamRoundedMedium;
   line-height: 22px;
-  margin: -1px 0px 0px 4px;
+  margin: -1px 0px 0px 6px;
 }
 .content5_p>span {
-  padding-right: 4px;
+  padding-right: 6px;
 }
 .button_green {
-  width: 239px;
+  width: 240px;
   height: 56px;
   background-color: #1abc9c;
   border-radius: 3px 0px 0px 3px;
@@ -365,7 +374,7 @@ float: left;
   height: 56px;
   background-color: #16a085;
   border-radius: 0px 3px 3px 0px;
-  margin: 0px 27px 0px 0px;
+  margin: 0px 26px 0px 0px;
   border: none;
   padding: 0px;
   display: inline-block;
@@ -379,7 +388,7 @@ margin: 41px 330px;
 .span_apple {
   margin: 1px auto;
   display: inline-block;
-  letter-spacing: 2.4px;
+  letter-spacing: 2.5px;
   padding-top: 4px;
 }
 .span_android {
@@ -387,12 +396,12 @@ margin: 41px 330px;
   display: inline-block;
   letter-spacing: 2.7px;
   padding-top: 1px;
-  padding-left: 6px;
+  padding-left: 7px;
   font-size: 18px;
 
 }
 .logo_apple {
-  padding: 10px 10px 6px 10px;
+  padding: 9px 9px 7px 7px;
 }
 .logo_android {
   padding: 10px 10px 6px 10px;
@@ -411,5 +420,5 @@ margin: 41px 330px;
 
 }
 .logo_green_footer {
- margin: 0px 0px 0px 570px;
+ margin: 0px 0px 0px 571px;
 }
