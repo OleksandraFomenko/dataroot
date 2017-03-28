@@ -1,0 +1,415 @@
+body {
+  font-family: GothamRoundedBold;
+  margin: 0px;
+  width: 1280px;
+}
+
+p {color: white;
+  display: inline-block;
+}
+
+h1 {
+     color: white;
+     font-size: 36px;
+     letter-spacing: 5.4px;
+     margin: 0px auto 0px 50px;
+}
+ h2 {
+   color: #16a085;
+   font-size: 18px;
+   letter-spacing: 2.7px;
+   margin: 0px auto;
+
+ }
+ .uppercase {
+   text-transform: uppercase;
+ }
+.span_bold {
+  font-family: GothamRoundedBold;
+}
+/*шрифты*/
+@font-face {
+    font-family: GothamRoundedBold; /* Гарнитура шрифта */
+    src: url(../fonts/GothamRounded/GothamRoundedBold_21016.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/GothamRounded/GothamRounded-Bold.otf);
+  }
+
+@font-face {
+      font-family: GothamRoundedBook; /* Гарнитура шрифта */
+      src: url(../fonts/GothamRounded/GothamRoundedBook.otf);
+    }
+
+@font-face {
+          font-family: GothamRoundedBook; /* Гарнитура шрифта */
+          src: url(../fonts/GothamRounded/GothamRoundedBook_21018.ttf);
+        }
+@font-face {
+          font-family: GothamRoundedMedium; /* Гарнитура шрифта */
+          src: url(../fonts/GothamRounded/GothamRoundedMedium_21022.ttf);
+        }
+.px18 {
+     font-size: 18px;
+     letter-spacing: 1.8px;
+}
+.px16 {
+     font-size: 16px;
+     letter-spacing: 2.5px;
+}
+
+.px14 {
+     font-size: 14px;
+     letter-spacing: 1.8px;
+     color: #373737;
+
+}
+.px12 {
+     font-size: 12px;
+     letter-spacing: 1.8px;
+
+}
+.px10 {
+     font-size: 10px;
+     letter-spacing: 1.8px;
+     color: #373737;
+}
+.px20 {
+     font-size: 20px;
+     letter-spacing: 1.8px;
+}
+.px24 {
+     font-size: 24px;
+     letter-spacing: 3.6px;
+}
+/*header*/
+.header {
+  height: 745px;
+  background: #ffffff url(../images/header.jpg) 0 0 repeat;
+}
+
+.nav {
+  width: 800px;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+
+
+.home {
+  margin-right: 58px;
+  margin-left: 32px;
+}
+.photoapp {
+  margin-right: 95px;
+  letter-spacing: 2.4px;
+}
+.logo-white {
+  margin-right: 93px;
+  position: relative;
+  top: 10px;
+}
+.design {
+  margin-right: 70px;
+  letter-spacing: 2.4px;
+}
+.h1 {
+  width: 600px;
+  margin: 228px auto 0px auto;
+
+}
+.print {
+      margin: 7.5px auto 25px 135px;
+      letter-spacing: 2.4px;
+      font-family: GothamRoundedMedium;
+}
+
+.button {
+  width: 166px;
+  height: 49px;
+  background-color: #16a085;
+  border-radius: 3px;
+  margin: 0px auto;
+  text-align: center;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  font-family: GothamRoundedBold;
+}
+.button_text {
+  margin-top: 14px;
+  margin-left: 2px;
+
+}
+.logos {
+  width: auto;
+  margin: 221px auto auto 590px;
+}
+.logos img {
+  margin-right: 12px;
+}
+.logos img:last-child {
+  margin-right: 0px;
+}
+
+/*content*/
+.content {
+  background-color: rgb(205, 183, 210);
+}
+
+.content1 {
+  height: 492px;
+  background: #f5f6f7 url('../images/hand.png') 510px 91px no-repeat;
+}
+.div_content1 {
+  padding-left: 128px;
+  padding-top: 109px;
+}
+.p_content {
+  color: #373737;
+  font-family: GothamRoundedBook;
+  margin: 37px auto;
+  line-height: 24px;
+}
+.button1 {
+  width: 192px;
+  height: 51px;
+  margin: 5px 1px;
+}
+.button_text1 {
+  margin-top: 16px;
+  margin-left: 0px;
+
+}
+.content2 {
+  height: 558px;
+  background: #FFFFFF url('../images/iphone.png') 124px 146px no-repeat;
+
+}
+.div_content2 {
+  padding-left: 766px;
+  padding-top: 141px;
+}
+.div_content2>h2 {
+  padding-top: 1px;
+  letter-spacing: 2.6px;
+}
+.div_content2>p{
+  line-height: 22px;
+  margin: 34px 2.5px;
+
+}
+.button2 {
+  width: 192px;
+  height: 52px;
+  margin: 3px 1px 1px 1px;
+  border-radius: 0px;
+}
+.button_text2 {
+  margin-top: 12px;
+  margin-left: -4px;
+}
+.dark {
+  color: #373737;;
+  margin: 38px 0px 0px 1px !important;
+}
+.angles {
+ margin: 2px 0px 0px 0px;
+}
+.angles>.angle-left {
+  display: inline-block;
+  margin-right: 18px;
+}
+.angles>.angle-right {
+  display: inline-block;
+}
+.content3 {
+  height: 484px;
+  background-color: #f5f6f7;
+}
+
+.angles2 {
+ padding: 95px 0px 0px 1110px;
+}
+.angles2>.angle-left {
+  display: inline-block;
+  margin-right: 11px;
+  margin-left: 3px;
+}
+.angles2>.angle-right {
+  display: inline-block;
+}
+.content3_logo {
+  padding: 65px 0px 0px 129px;
+  display: inline-block;
+  width: 256px;
+  height: 200px;
+}
+.content3_logo .px10{
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-family: GothamRoundedMedium;
+  padding-left: 17px;
+}
+.px10>span {
+  padding-right: 4px;
+}
+.logo-green {
+  margin-left: 57px;
+  position: relative;
+  top: -14px;
+}
+.our_community {
+  display: block;
+  color: #373737;
+  margin: 9px 0px 9px -1px;
+  letter-spacing: 2.4px;
+}
+.bus {
+  display: inline-block;
+  margin: -212px 0px 0px 256px;
+}
+.tree {
+  display: block;
+  margin: -248px 0px 0px 650px;
+}
+.content4 {
+  height: 789px;
+  background-image: url('../images/photo.png');
+}
+.content4 p {
+  display: block;
+}
+.content4_content {
+  width: 500px;
+  padding: 322px 402px;
+}
+.email_main {
+ padding: 5px 0px 0px 2px;
+}
+.email {
+  width: 258px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border-radius: 3px 0px 0px 3px;
+  margin: 0px 0px 0px 62px;
+  padding: 0px 0px 0px 22px;
+  border: none;
+  color: #373737;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 2.4px;
+  font-family: GothamRoundedMedium;
+  float: left;
+
+}
+.button4 {
+width: 63px;
+height: 60px;
+background-color: #16a085;
+border-radius: 0px 3px 3px 0px;
+margin: 0px 0px 0px 0px;
+border: none;
+padding: 0px;
+float: left;
+}
+.image_check {
+  padding: 8px 20px 0px 23px;
+}
+
+.content5 {
+  height: 396px;
+  background-color: #f5f6f7;
+}
+.content5 p {
+   color: #373737;
+   display: block;
+   text-align: center;
+}
+.download_content5 {
+  padding-top: 87px;
+  padding-bottom: 7px;
+  letter-spacing: 3px;
+  margin: 0px 0px 0px -1px;
+}
+.content5_p {
+  font-family: GothamRoundedMedium;
+  line-height: 22px;
+  margin: -1px 0px 0px 4px;
+}
+.content5_p>span {
+  padding-right: 4px;
+}
+.button_green {
+  width: 239px;
+  height: 56px;
+  background-color: #1abc9c;
+  border-radius: 3px 0px 0px 3px;
+  /*margin: 0px auto;*/
+  padding: 0px 0px 0px 23px;
+  border: none;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 2.8px;
+  font-family: GothamRoundedBold;
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+
+.div_logo {
+  content: inherit;
+  width: 56px;
+  height: 56px;
+  background-color: #16a085;
+  border-radius: 0px 3px 3px 0px;
+  margin: 0px 27px 0px 0px;
+  border: none;
+  padding: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.content5_logos {
+  width: 900px;
+margin: 41px 330px;
+}
+.span_apple {
+  margin: 1px auto;
+  display: inline-block;
+  letter-spacing: 2.4px;
+  padding-top: 4px;
+}
+.span_android {
+  margin: 1px auto;
+  display: inline-block;
+  letter-spacing: 2.7px;
+  padding-top: 1px;
+  padding-left: 6px;
+  font-size: 18px;
+
+}
+.logo_apple {
+  padding: 10px 10px 6px 10px;
+}
+.logo_android {
+  padding: 10px 10px 6px 10px;
+}
+.footer {
+  height: 131px;
+  background-color: #FFFFFF;
+}
+.green_span {
+  color: #16a085;
+}
+.footer .px14 {
+  line-height: 36px;
+  margin: 34px 0px 0px 126px;
+  letter-spacing: 2.1px;
+
+}
+.logo_green_footer {
+ margin: 0px 0px 0px 570px;
+}
